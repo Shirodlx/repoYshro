@@ -1,14 +1,110 @@
-<!-- Escribir html:5 y te hará la estructura principal -->
-<!DOCTYPE html> 
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentoooooo</title> <!-- Titulo de la pagina -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YshroDev</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-    <body> <!-- Cuerpo de la pagina (Aquí ira todo el codigo que se mostrará)-->
-            <h1>Hola mundo</h1>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            <a href="https://www.google.com" target="_blank">Ir a google</a>
-    </body>
+  <body>
+    <header>
+        <div class="titulo-principal">
+        <img id="img-titulo" src="images/pngwing.com (2).png" alt="Logo">
+        <h1 id="nombre-developer">YshroDev</h1>
+
+              <input type="checkbox" id="toggle-menu" hidden>
+              <label for="toggle-menu">
+              <img id="gif-menu" src="gif/ZS3t.gif" alt="Toggle Menu">
+              </label>
+              <div class="apretarMenu">
+                <p>🢘🢘🢘🢘🢘
+                </p>
+              </div>
+              <ul class="menu">
+                <li class="dropdown"><a href="#">Inicio</a></li>
+
+                <li class="dropdown">
+                  <a href="#">Proyectos</a>
+                  <ul class="submenu">
+                    <li><a href="#">Proyecto 1</a></li>
+                    <li><a href="#">Proyecto 2</a></li>
+                    <li><a href="#">Proyecto 3</a></li>
+                  </ul>
+                </li>
+        
+                <li class="dropdown">
+                  <a href="#">Recursos</a>
+                  <ul class="submenu">
+                    <li><a href="#">Documentación</a></li>
+                    <li><a href="#">Tutoriales</a></li>
+                    <li><a href="#">Ejemplos</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Contacto</a></li> 
+              </ul>
+
+            </div>
+            <hr class="separator">
+            <div class="info-menu">
+              <input type="checkbox" id="toggle-bg">
+              <label for="toggle-bg" id="pixel-button2">Cambiar Fondo</label>
+              <div id="background">
+              </div>
+              <img src="gif/tumblr-n7zukidwwu1qze3hdo1-r2-500-1.gif" alt="">        
+              </div>
+              
+          </header>
+          
+      <aside>
+        <div class="aside-content">
+          <div class="card-content">
+            
+            <button class="pixel-button">CERTIFICADOS</button>
+            <a href="https://www.freecodecamp.org/certification/fcce6377781-dbaa-48eb-a130-f74ef65d125c/foundational-c-sharp-with-microsoft" class="card" target="_blank">
+              <img class="icon" src="images/pngegg.png" alt="">
+              <p><b>|CERTIFICADO|</b> Fundamentos en C# con Microsoft</p>
+            </a>
+            <a href="https://drive.google.com/file/d/14kzQ0NbfUKIUj3YQzm3Yjq1BRenNAv4V/view" class="card" target="_blank">
+              <img class="icon" src="images/logo-aiep.png.png" alt="">
+              <p><b>|CERTIFICADO|</b> Fundamentos en programación</p>
+            </a>
+            <a href="https://drive.google.com/file/d/1WVVRZ4w0Zg5ZlPeBwntD06rjjD4SH5RS/view" class="card" target="_blank">
+              <img class="icon" src="images/sence.png" alt="">
+              <p><b>|CERTIFICADO|</b> Sence 2018 Supervisión de gestión de la producción</p>
+            </a>
+            <a href="https://drive.google.com/file/d/1_PvY-qyXPjTDQgIilVP-AyfgCI6lYIyA/view" class="card" target="_blank">
+              <img class="icon" src="images/sence.png" alt="">
+              <p><b>|CERTIFICADO|</b> Sence 2019 Prevensión de riesgos en la organización</p>
+            </a>
+          </div>
+            <a href="https://drive.google.com/file/d/1wN_hT1tZgZAGhbkqoJiw3238oFvgTUgb/view" class="card" target="_blank">
+              <img class="icon" src="images/logo-aiep.png.png" alt="">
+              <p><b>|CERTIFICADO|</b> Herramientas para la innovación</p>
+            </a>
+            
+            <div class="card-content">
+            <button class="pixel-button">TARJETA 2</button>
+            <a href="https://www.youtube.com" class="card" target="_blank">
+              <img class="icon" src="images/a-youtube.png" alt="">
+              <p>Dirigirse a youtube</p>
+            </a>
+            <a href="https://www.youtube.com" class="card" target="_blank">
+              <img class="icon" src="images/a-youtube.png" alt="">
+              <p>Dirigirse a youtube</p>
+            </a>
+            <a href="https://www.youtube.com" class="card" target="_blank">
+              <img class="icon" src="images/a-youtube.png" alt="">
+              <p>Dirigirse a youtube</p>
+            </a>
+            <a href="https://www.youtube.com" class="card" target="_blank">
+              <img class="icon" src="images/a-youtube.png" alt="">
+              <p>Dirigirse a youtube</p>
+            </a>
+          </div>
+        </div>
+      </aside>
+  <footer>
+    <p>YshroDev &copy; 2024</p>
+  </footer>
+</body>
 </html>
