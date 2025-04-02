@@ -8,8 +8,6 @@ body {
     display: inline-block;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -75,8 +73,9 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
     background-image: url('../images/photo-1527607976958-7cbb4a6d0131.jpg');
     background-size: cover;
     background-position: center;
@@ -94,8 +93,9 @@ body {
     display: none;
 }
 #toggle-bg:checked ~ #background {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
     transition: background-image 1s;
     background-image: url('../gif/3182e579d9e985daa8168ea729da7cba.gif');
 }
@@ -104,6 +104,8 @@ body {
 .menu {
     margin-left: 230px;
     padding: 0;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     margin-top: 2%;
     display: flex;
