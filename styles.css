@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
+html{
+    
+}
 body {
     display: inline-block;
     justify-content: center;
@@ -72,14 +74,14 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url('images/photo-1527607976958-7cbb4a6d0131.jpg'); /* GIF inicial */
+    background-image: url('images/photo-1527607976958-7cbb4a6d0131.jpg'); 
     background-size: cover;
     background-position: center;
     z-index: -1; /* Envía al fondo */
     transition: background-image 1s;
 }
 #pixel-button2:hover {
-    background-color: #0221649c; /* Amarillo más brillante */
+    background-color: #0221649c; 
     box-shadow: 0 3px #1f1bf1b2;
     border-radius: 10px;
     margin-left: 36.5%;
@@ -152,9 +154,9 @@ label[for="toggle-menu"] {
     border-radius: 5px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     left: 50%;
-    transform: translateX(-50%) translateY(-10px); /* Inicialmente un poco arriba */
-    opacity: 0;  /* Oculto por defecto */
-    visibility: hidden; /* Para evitar que ocupe espacio */
+    transform: translateX(-50%) translateY(-10px); 
+    opacity: 0;  
+    visibility: hidden; 
     transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
 }
 .dropdown:hover .submenu {
@@ -174,7 +176,7 @@ label[for="toggle-menu"] {
 }
 
 .menu-icon{
-    margin-left: 5%; /* Empuja el icono hacia la derecha */
+    margin-left: 5%;
     display: flex;
 }
 #gif-menu{
@@ -206,7 +208,7 @@ label[for="toggle-menu"] {
     margin-bottom: 1%;
 }
 .pixel-button:hover {
-    background-color: #ffdd33; /* Amarillo más brillante */
+    background-color: #ffdd33; 
     box-shadow: 0 3px #cc9900;
 }
 .pixel-button:active {
